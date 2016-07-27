@@ -1,0 +1,5 @@
+require 'minitest/autorun'
+
+describe calculator do
+
+end

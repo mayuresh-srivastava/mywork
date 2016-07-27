@@ -1,0 +1,554 @@
+[root@mayuresh /]# dnf install npm ruby gcc ruby-devel sqlite-devel
+Last metadata expiration check performed 1:55:55 ago on Sat May 28 23:05:57 2016.
+Package ruby-2.2.3-44.fc23.x86_64 is already installed, skipping.
+Package gcc-5.1.1-4.fc23.x86_64 is already installed, skipping.
+Package sqlite-devel-3.9.0-1.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+======================================================================================================================================================
+ Package                                        Arch                    Version                                        Repository                Size
+======================================================================================================================================================
+Installing:
+ c-ares-devel                                   x86_64                  1.10.0-5.fc23                                  fedora                    77 k
+ compat-libuv010-devel                          x86_64                  1:0.10.34-3.fc23                               fedora                    40 k
+ dwz                                            x86_64                  0.12-1.fc23                                    fedora                   106 k
+ ghc-srpm-macros                                noarch                  1.4.2-2.fc23                                   fedora                   8.2 k
+ gnat-srpm-macros                               noarch                  2-1.fc23                                       fedora                   8.4 k
+ go-srpm-macros                                 noarch                  2-3.fc23                                       fedora                   8.0 k
+ gyp                                            noarch                  0.1-0.18.0bb6747git.fc23                       fedora                   508 k
+ http-parser-devel                              x86_64                  2.0-9.20121128gitcd01361.fc23                  fedora                    14 k
+ libuv                                          x86_64                  1:1.4.0-2.fc23                                 fedora                    75 k
+ libuv-devel                                    x86_64                  1:1.4.0-2.fc23                                 fedora                    36 k
+ node-gyp                                       noarch                  0.10.6-5.fc23                                  fedora                    30 k
+ nodejs-abbrev                                  noarch                  1.0.4-9.fc23                                   fedora                    12 k
+ nodejs-ansi                                    noarch                  0.2.1-3.fc23                                   fedora                    17 k
+ nodejs-archy                                   noarch                  0.0.2-11.fc23                                  fedora                    11 k
+ nodejs-asn1                                    noarch                  0.1.11-6.fc23                                  fedora                    15 k
+ nodejs-assert-plus                             noarch                  0.1.4-3.fc23                                   fedora                    12 k
+ nodejs-async                                   noarch                  0.2.10-3.fc23                                  fedora                    25 k
+ nodejs-aws-sign                                noarch                  0.3.0-4.fc23                                   fedora                    10 k
+ nodejs-block-stream                            noarch                  0.0.7-3.fc23                                   fedora                    13 k
+ nodejs-boom                                    noarch                  0.4.2-5.fc23                                   fedora                    41 k
+ nodejs-child-process-close                     noarch                  0.1.1-5.fc23                                   fedora                    11 k
+ nodejs-chmodr                                  noarch                  0.1.0-7.fc23                                   fedora                    10 k
+ nodejs-chownr                                  noarch                  0.0.1-12.fc23                                  fedora                    11 k
+ nodejs-cmd-shim                                noarch                  1.1.0-6.fc23                                   fedora                    12 k
+ nodejs-combined-stream                         noarch                  0.0.4-6.fc23                                   fedora                    12 k
+ nodejs-config-chain                            noarch                  1.1.7-4.fc23                                   fedora                    14 k
+ nodejs-cookie-jar                              noarch                  1:0.3.0-4.fc23                                 fedora                    11 k
+ nodejs-cryptiles                               noarch                  0.2.2-3.fc23                                   fedora                    11 k
+ nodejs-ctype                                   noarch                  0.5.3-6.fc23                                   fedora                    35 k
+ nodejs-delayed-stream                          noarch                  0.0.5-8.fc23                                   fedora                    12 k
+ nodejs-devel                                   x86_64                  0.10.36-4.fc23                                 fedora                   337 k
+ nodejs-editor                                  noarch                  0.0.4-5.fc23                                   fedora                    11 k
+ nodejs-forever-agent                           noarch                  0.5.0-4.fc23                                   fedora                    10 k
+ nodejs-form-data                               noarch                  0.1.1-3.fc23                                   fedora                    15 k
+ nodejs-fstream                                 noarch                  0.1.24-3.fc23                                  fedora                    29 k
+ nodejs-fstream-ignore                          noarch                  0.0.7-4.fc23                                   fedora                    13 k
+ nodejs-fstream-npm                             noarch                  0.1.5-4.fc23                                   fedora                    16 k
+ nodejs-github-url-from-git                     noarch                  1.1.1-5.fc23                                   fedora                    10 k
+ nodejs-glob                                    noarch                  3.2.6-3.fc23                                   fedora                    20 k
+ nodejs-graceful-fs                             noarch                  2.0.0-5.fc23                                   fedora                    15 k
+ nodejs-hawk                                    noarch                  1.0.0-3.fc23                                   fedora                   109 k
+ nodejs-hoek                                    noarch                  0.9.1-4.fc23                                   fedora                    55 k
+ nodejs-http-signature                          noarch                  0.10.0-6.fc23                                  fedora                    21 k
+ nodejs-inherits                                noarch                  2.0.1-6.fc23                                   fedora                    13 k
+ nodejs-ini                                     noarch                  1.1.0-6.fc23                                   fedora                    13 k
+ nodejs-init-package-json                       noarch                  0.0.10-4.fc23                                  fedora                    14 k
+ nodejs-json-stringify-safe                     noarch                  5.0.0-4.fc23                                   fedora                    11 k
+ nodejs-lockfile                                noarch                  0.4.2-3.fc23                                   fedora                    16 k
+ nodejs-lru-cache                               noarch                  2.3.0-6.fc23                                   fedora                    14 k
+ nodejs-mime                                    noarch                  1.2.11-3.fc23                                  fedora                    26 k
+ nodejs-minimatch                               noarch                  0.2.12-5.fc23                                  fedora                    22 k
+ nodejs-mkdirp                                  noarch                  0.3.5-6.fc23                                   fedora                    12 k
+ nodejs-mute-stream                             noarch                  0.0.4-3.fc23                                   fedora                    12 k
+ nodejs-node-uuid                               noarch                  1.4.1-3.fc23                                   fedora                    14 k
+ nodejs-nopt                                    noarch                  2.1.2-3.fc23                                   fedora                    20 k
+ nodejs-normalize-package-data                  noarch                  0.2.1-3.fc23                                   fedora                    17 k
+ nodejs-npm-registry-client                     noarch                  0.2.28-4.fc23                                  fedora                    25 k
+ nodejs-npm-user-validate                       noarch                  0.0.3-4.fc23                                   fedora                    10 k
+ nodejs-npmconf                                 noarch                  0.1.3-3.fc23                                   fedora                    22 k
+ nodejs-npmlog                                  noarch                  0.0.4-4.fc23                                   fedora                    14 k
+ nodejs-oauth-sign                              noarch                  0.3.0-4.fc23                                   fedora                   9.2 k
+ nodejs-once                                    noarch                  1.1.1-8.fc23                                   fedora                    11 k
+ nodejs-opener                                  noarch                  1.3.0-10.fc23                                  fedora                    11 k
+ nodejs-osenv                                   noarch                  0.0.3-8.fc23                                   fedora                    11 k
+ nodejs-packaging                               noarch                  7-4.fc23                                       fedora                    15 k
+ nodejs-promzard                                noarch                  0.2.0-9.fc23                                   fedora                    16 k
+ nodejs-proto-list                              noarch                  1.2.2-8.fc23                                   fedora                    11 k
+ nodejs-qs                                      noarch                  0.6.6-4.fc23                                   fedora                    13 k
+ nodejs-read                                    noarch                  1.0.5-3.fc23                                   fedora                    13 k
+ nodejs-read-installed                          noarch                  0.2.4-4.fc23                                   fedora                    14 k
+ nodejs-read-package-json                       noarch                  1.1.3-3.fc23                                   fedora                    16 k
+ nodejs-request                                 noarch                  2.25.0-3.fc23                                  fedora                    31 k
+ nodejs-retry                                   noarch                  0.6.0-8.fc23                                   fedora                    15 k
+ nodejs-rimraf                                  noarch                  2.2.2-3.fc23                                   fedora                    12 k
+ nodejs-semver                                  noarch                  2.1.0-4.fc23                                   fedora                    20 k
+ nodejs-sha                                     noarch                  1.2.1-3.fc23                                   fedora                    12 k
+ nodejs-sigmund                                 noarch                  1.0.0-8.fc23                                   fedora                    13 k
+ nodejs-slide                                   noarch                  1.1.5-3.fc23                                   fedora                    14 k
+ nodejs-sntp                                    noarch                  0.2.4-4.fc23                                   fedora                    15 k
+ nodejs-tar                                     noarch                  0.1.18-3.fc23                                  fedora                    27 k
+ nodejs-tunnel-agent                            noarch                  0.3.0-4.fc23                                   fedora                    11 k
+ nodejs-uid-number                              noarch                  0.0.3-10.fc23                                  fedora                    12 k
+ nodejs-which                                   noarch                  1.0.5-11.fc23                                  fedora                    12 k
+ npm                                            noarch                  1.3.6-8.fc23                                   fedora                   339 k
+ ocaml-srpm-macros                              noarch                  2-3.fc23                                       fedora                   8.1 k
+ perl-srpm-macros                               noarch                  1-17.fc23                                      fedora                   9.7 k
+ python-srpm-macros                             noarch                  3-7.fc23                                       updates                  8.1 k
+ redhat-rpm-config                              noarch                  36-1.fc23.1                                    updates                   59 k
+ ruby-devel                                     x86_64                  2.2.3-44.fc23                                  fedora                   139 k
+ v8-devel                                       x86_64                  1:3.14.5.10-21.fc23                            fedora                    64 k
+Skipping packages with conflicts:
+(add '--best --allowerasing' to command line to force their upgrade):
+ cpp                                            x86_64                  5.3.1-6.fc23                                   updates                  8.3 M
+ gcc                                            x86_64                  5.3.1-6.fc23                                   updates                   19 M
+ gcc-c++                                        x86_64                  5.3.1-6.fc23                                   updates                  9.8 M
+ libgcc                                         i686                    5.3.1-6.fc23                                   updates                  101 k
+ libgcc                                         x86_64                  5.3.1-6.fc23                                   updates                   92 k
+ libgomp                                        x86_64                  5.3.1-6.fc23                                   updates                  156 k
+ libstdc++                                      i686                    5.3.1-6.fc23                                   updates                  454 k
+ libstdc++                                      x86_64                  5.3.1-6.fc23                                   updates                  429 k
+ libstdc++-devel                                x86_64                  5.3.1-6.fc23                                   updates                  1.8 M
+ libtool                                        x86_64                  2.4.6-8.fc23                                   updates                  707 k
+ ruby                                           x86_64                  2.2.5-48.fc23                                  updates                   75 k
+ ruby-devel                                     x86_64                  2.2.5-48.fc23                                  updates                  140 k
+ ruby-irb                                       noarch                  2.2.5-48.fc23                                  updates                   94 k
+ ruby-libs                                      x86_64                  2.2.5-48.fc23                                  updates                  2.9 M
+ rubygem-rdoc                                   noarch                  4.2.0-48.fc23                                  updates                  482 k
+ sqlite                                         x86_64                  3.11.0-3.fc23                                  updates                  485 k
+ sqlite-devel                                   x86_64                  3.11.0-3.fc23                                  updates                  129 k
+ sqlite-libs                                    i686                    3.11.0-3.fc23                                  updates                  464 k
+ sqlite-libs                                    x86_64                  3.11.0-3.fc23                                  updates                  449 k
+
+Transaction Summary
+======================================================================================================================================================
+Install  90 Packages
+Skip     19 Packages
+
+Total download size: 3.0 M
+Installed size: 7.3 M
+Is this ok [y/N]: y
+Downloading Packages:
+[MIRROR] nodejs-abbrev-1.0.4-9.fc23.noarch.rpm: Curl error (28): Timeout was reached for ftp://mirrors.ustc.edu.cn/fedora/linux/releases/23/Everything/x86_64/os/Packages/n/nodejs-abbrev-1.0.4-9.fc23.noarch.rpm []
+(1/90): nodejs-abbrev-1.0.4-9.fc23.noarch.rpm                                                                         5.6 kB/s |  12 kB     00:02    
+(2/90): nodejs-ansi-0.2.1-3.fc23.noarch.rpm                                                                            29 kB/s |  17 kB     00:00    
+(3/90): nodejs-archy-0.0.2-11.fc23.noarch.rpm                                                                          26 kB/s |  11 kB     00:00    
+(4/90): nodejs-block-stream-0.0.7-3.fc23.noarch.rpm                                                                    30 kB/s |  13 kB     00:00    
+(5/90): nodejs-child-process-close-0.1.1-5.fc23.noarch.rpm                                                             38 kB/s |  11 kB     00:00    
+(6/90): nodejs-chmodr-0.1.0-7.fc23.noarch.rpm                                                                          24 kB/s |  10 kB     00:00    
+(7/90): nodejs-chownr-0.0.1-12.fc23.noarch.rpm                                                                         24 kB/s |  11 kB     00:00    
+(8/90): nodejs-cmd-shim-1.1.0-6.fc23.noarch.rpm                                                                        40 kB/s |  12 kB     00:00    
+(9/90): nodejs-editor-0.0.4-5.fc23.noarch.rpm                                                                          43 kB/s |  11 kB     00:00    
+(10/90): node-gyp-0.10.6-5.fc23.noarch.rpm                                                                            5.2 kB/s |  30 kB     00:05    
+(11/90): nodejs-fstream-0.1.24-3.fc23.noarch.rpm                                                                       56 kB/s |  29 kB     00:00    
+(12/90): nodejs-glob-3.2.6-3.fc23.noarch.rpm                                                                           56 kB/s |  20 kB     00:00    
+(13/90): nodejs-graceful-fs-2.0.0-5.fc23.noarch.rpm                                                                    52 kB/s |  15 kB     00:00    
+(14/90): nodejs-fstream-npm-0.1.5-4.fc23.noarch.rpm                                                                    21 kB/s |  16 kB     00:00    
+(15/90): nodejs-ini-1.1.0-6.fc23.noarch.rpm                                                                            38 kB/s |  13 kB     00:00    
+(16/90): nodejs-init-package-json-0.0.10-4.fc23.noarch.rpm                                                             40 kB/s |  14 kB     00:00    
+(17/90): nodejs-lockfile-0.4.2-3.fc23.noarch.rpm                                                                       54 kB/s |  16 kB     00:00    
+(18/90): nodejs-lru-cache-2.3.0-6.fc23.noarch.rpm                                                                      40 kB/s |  14 kB     00:00    
+(19/90): npm-1.3.6-8.fc23.noarch.rpm                                                                                   45 kB/s | 339 kB     00:07    
+(20/90): nodejs-minimatch-0.2.12-5.fc23.noarch.rpm                                                                     64 kB/s |  22 kB     00:00    
+(21/90): nodejs-mkdirp-0.3.5-6.fc23.noarch.rpm                                                                         27 kB/s |  12 kB     00:00    
+(22/90): nodejs-nopt-2.1.2-3.fc23.noarch.rpm                                                                           69 kB/s |  20 kB     00:00    
+(23/90): nodejs-npm-user-validate-0.0.3-4.fc23.noarch.rpm                                                              32 kB/s |  10 kB     00:00    
+(24/90): nodejs-npmconf-0.1.3-3.fc23.noarch.rpm                                                                        70 kB/s |  22 kB     00:00    
+(25/90): nodejs-npmlog-0.0.4-4.fc23.noarch.rpm                                                                         50 kB/s |  14 kB     00:00    
+(26/90): nodejs-npm-registry-client-0.2.28-4.fc23.noarch.rpm                                                           29 kB/s |  25 kB     00:00    
+(27/90): nodejs-once-1.1.1-8.fc23.noarch.rpm                                                                           23 kB/s |  11 kB     00:00    
+(28/90): nodejs-opener-1.3.0-10.fc23.noarch.rpm                                                                        33 kB/s |  11 kB     00:00    
+(29/90): nodejs-osenv-0.0.3-8.fc23.noarch.rpm                                                                          28 kB/s |  11 kB     00:00    
+(30/90): nodejs-read-1.0.5-3.fc23.noarch.rpm                                                                           44 kB/s |  13 kB     00:00    
+(31/90): nodejs-read-installed-0.2.4-4.fc23.noarch.rpm                                                                 38 kB/s |  14 kB     00:00    
+(32/90): nodejs-read-package-json-1.1.3-3.fc23.noarch.rpm                                                              49 kB/s |  16 kB     00:00    
+(33/90): nodejs-retry-0.6.0-8.fc23.noarch.rpm                                                                          50 kB/s |  15 kB     00:00    
+(34/90): nodejs-request-2.25.0-3.fc23.noarch.rpm                                                                       63 kB/s |  31 kB     00:00    
+(35/90): nodejs-rimraf-2.2.2-3.fc23.noarch.rpm                                                                         21 kB/s |  12 kB     00:00    
+(36/90): nodejs-sha-1.2.1-3.fc23.noarch.rpm                                                                            29 kB/s |  12 kB     00:00    
+(37/90): nodejs-semver-2.1.0-4.fc23.noarch.rpm                                                                         31 kB/s |  20 kB     00:00    
+(38/90): nodejs-tar-0.1.18-3.fc23.noarch.rpm                                                                           53 kB/s |  27 kB     00:00    
+(39/90): nodejs-slide-1.1.5-3.fc23.noarch.rpm                                                                          25 kB/s |  14 kB     00:00    
+(40/90): nodejs-uid-number-0.0.3-10.fc23.noarch.rpm                                                                    22 kB/s |  12 kB     00:00    
+(41/90): nodejs-which-1.0.5-11.fc23.noarch.rpm                                                                         36 kB/s |  12 kB     00:00    
+(42/90): nodejs-inherits-2.0.1-6.fc23.noarch.rpm                                                                       39 kB/s |  13 kB     00:00    
+(43/90): nodejs-fstream-ignore-0.0.7-4.fc23.noarch.rpm                                                                 30 kB/s |  13 kB     00:00    
+(44/90): nodejs-promzard-0.2.0-9.fc23.noarch.rpm                                                                       49 kB/s |  16 kB     00:00    
+(45/90): nodejs-sigmund-1.0.0-8.fc23.noarch.rpm                                                                        44 kB/s |  13 kB     00:00    
+(46/90): nodejs-config-chain-1.1.7-4.fc23.noarch.rpm                                                                   43 kB/s |  14 kB     00:00    
+(47/90): nodejs-mute-stream-0.0.4-3.fc23.noarch.rpm                                                                    43 kB/s |  12 kB     00:00    
+(48/90): nodejs-normalize-package-data-0.2.1-3.fc23.noarch.rpm                                                         52 kB/s |  17 kB     00:00    
+(49/90): nodejs-aws-sign-0.3.0-4.fc23.noarch.rpm                                                                       32 kB/s |  10 kB     00:00    
+(50/90): nodejs-cookie-jar-0.3.0-4.fc23.noarch.rpm                                                                     40 kB/s |  11 kB     00:00    
+(51/90): nodejs-forever-agent-0.5.0-4.fc23.noarch.rpm                                                                  31 kB/s |  10 kB     00:00    
+(52/90): nodejs-form-data-0.1.1-3.fc23.noarch.rpm                                                                      46 kB/s |  15 kB     00:00    
+(53/90): nodejs-http-signature-0.10.0-6.fc23.noarch.rpm                                                                65 kB/s |  21 kB     00:00    
+(54/90): nodejs-json-stringify-safe-5.0.0-4.fc23.noarch.rpm                                                            31 kB/s |  11 kB     00:00    
+(55/90): nodejs-hawk-1.0.0-3.fc23.noarch.rpm                                                                          115 kB/s | 109 kB     00:00    
+(56/90): gyp-0.1-0.18.0bb6747git.fc23.noarch.rpm                                                                      163 kB/s | 508 kB     00:03    
+(57/90): nodejs-mime-1.2.11-3.fc23.noarch.rpm                                                                          72 kB/s |  26 kB     00:00    
+(58/90): nodejs-node-uuid-1.4.1-3.fc23.noarch.rpm                                                                      36 kB/s |  14 kB     00:00    
+(59/90): nodejs-oauth-sign-0.3.0-4.fc23.noarch.rpm                                                                     26 kB/s | 9.2 kB     00:00    
+(60/90): nodejs-qs-0.6.6-4.fc23.noarch.rpm                                                                             29 kB/s |  13 kB     00:00    
+(61/90): nodejs-tunnel-agent-0.3.0-4.fc23.noarch.rpm                                                                   29 kB/s |  11 kB     00:00    
+(62/90): nodejs-proto-list-1.2.2-8.fc23.noarch.rpm                                                                     25 kB/s |  11 kB     00:00    
+(63/90): nodejs-github-url-from-git-1.1.1-5.fc23.noarch.rpm                                                            34 kB/s |  10 kB     00:00    
+(64/90): nodejs-async-0.2.10-3.fc23.noarch.rpm                                                                         58 kB/s |  25 kB     00:00    
+(65/90): nodejs-combined-stream-0.0.4-6.fc23.noarch.rpm                                                                33 kB/s |  12 kB     00:00    
+(66/90): nodejs-cryptiles-0.2.2-3.fc23.noarch.rpm                                                                      24 kB/s |  11 kB     00:00    
+(67/90): nodejs-boom-0.4.2-5.fc23.noarch.rpm                                                                           54 kB/s |  41 kB     00:00    
+(68/90): nodejs-hoek-0.9.1-4.fc23.noarch.rpm                                                                           70 kB/s |  55 kB     00:00    
+(69/90): nodejs-sntp-0.2.4-4.fc23.noarch.rpm                                                                           28 kB/s |  15 kB     00:00    
+(70/90): nodejs-asn1-0.1.11-6.fc23.noarch.rpm                                                                          25 kB/s |  15 kB     00:00    
+(71/90): nodejs-assert-plus-0.1.4-3.fc23.noarch.rpm                                                                    33 kB/s |  12 kB     00:00    
+(72/90): nodejs-ctype-0.5.3-6.fc23.noarch.rpm                                                                          62 kB/s |  35 kB     00:00    
+(73/90): nodejs-delayed-stream-0.0.5-8.fc23.noarch.rpm                                                                 28 kB/s |  12 kB     00:00    
+(74/90): ruby-devel-2.2.3-44.fc23.x86_64.rpm                                                                           76 kB/s | 139 kB     00:01    
+(75/90): compat-libuv010-devel-0.10.34-3.fc23.x86_64.rpm                                                               23 kB/s |  40 kB     00:01    
+(76/90): http-parser-devel-2.0-9.20121128gitcd01361.fc23.x86_64.rpm                                                    19 kB/s |  14 kB     00:00    
+(77/90): c-ares-devel-1.10.0-5.fc23.x86_64.rpm                                                                         64 kB/s |  77 kB     00:01    
+(78/90): nodejs-packaging-7-4.fc23.noarch.rpm                                                                          33 kB/s |  15 kB     00:00    
+(79/90): v8-devel-3.14.5.10-21.fc23.x86_64.rpm                                                                         45 kB/s |  64 kB     00:01    
+(80/90): nodejs-devel-0.10.36-4.fc23.x86_64.rpm                                                                        76 kB/s | 337 kB     00:04    
+(81/90): dwz-0.12-1.fc23.x86_64.rpm                                                                                   143 kB/s | 106 kB     00:00    
+(82/90): ghc-srpm-macros-1.4.2-2.fc23.noarch.rpm                                                                       26 kB/s | 8.2 kB     00:00    
+(83/90): gnat-srpm-macros-2-1.fc23.noarch.rpm                                                                          21 kB/s | 8.4 kB     00:00    
+(84/90): go-srpm-macros-2-3.fc23.noarch.rpm                                                                            24 kB/s | 8.0 kB     00:00    
+(85/90): ocaml-srpm-macros-2-3.fc23.noarch.rpm                                                                         22 kB/s | 8.1 kB     00:00    
+(86/90): perl-srpm-macros-1-17.fc23.noarch.rpm                                                                         19 kB/s | 9.7 kB     00:00    
+(87/90): libuv-devel-1.4.0-2.fc23.x86_64.rpm                                                                           96 kB/s |  36 kB     00:00    
+(88/90): libuv-1.4.0-2.fc23.x86_64.rpm                                                                                 82 kB/s |  75 kB     00:00    
+(89/90): python-srpm-macros-3-7.fc23.noarch.rpm                                                                       1.5 kB/s | 8.1 kB     00:05    
+(90/90): redhat-rpm-config-36-1.fc23.1.noarch.rpm                                                                     8.4 kB/s |  59 kB     00:07    
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                 101 kB/s | 3.0 MB     00:30     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : nodejs-inherits-2.0.1-6.fc23.noarch                                                                                              1/90 
+  Installing  : nodejs-semver-2.1.0-4.fc23.noarch                                                                                                2/90 
+  Installing  : nodejs-mkdirp-0.3.5-6.fc23.noarch                                                                                                3/90 
+  Installing  : nodejs-graceful-fs-2.0.0-5.fc23.noarch                                                                                           4/90 
+  Installing  : nodejs-rimraf-2.2.2-3.fc23.noarch                                                                                                5/90 
+  Installing  : nodejs-fstream-0.1.24-3.fc23.noarch                                                                                              6/90 
+  Installing  : nodejs-hoek-0.9.1-4.fc23.noarch                                                                                                  7/90 
+  Installing  : nodejs-slide-1.1.5-3.fc23.noarch                                                                                                 8/90 
+  Installing  : nodejs-osenv-0.0.3-8.fc23.noarch                                                                                                 9/90 
+  Installing  : nodejs-lru-cache-2.3.0-6.fc23.noarch                                                                                            10/90 
+  Installing  : nodejs-ini-1.1.0-6.fc23.noarch                                                                                                  11/90 
+  Installing  : nodejs-boom-0.4.2-5.fc23.noarch                                                                                                 12/90 
+  Installing  : nodejs-block-stream-0.0.7-3.fc23.noarch                                                                                         13/90 
+  Installing  : nodejs-tar-0.1.18-3.fc23.noarch                                                                                                 14/90 
+  Installing  : v8-devel-1:3.14.5.10-21.fc23.x86_64                                                                                             15/90 
+  Installing  : http-parser-devel-2.0-9.20121128gitcd01361.fc23.x86_64                                                                          16/90 
+  Installing  : nodejs-mime-1.2.11-3.fc23.noarch                                                                                                17/90 
+  Installing  : nodejs-which-1.0.5-11.fc23.noarch                                                                                               18/90 
+  Installing  : nodejs-retry-0.6.0-8.fc23.noarch                                                                                                19/90 
+  Installing  : nodejs-once-1.1.1-8.fc23.noarch                                                                                                 20/90 
+  Installing  : nodejs-chownr-0.0.1-12.fc23.noarch                                                                                              21/90 
+  Installing  : nodejs-ansi-0.2.1-3.fc23.noarch                                                                                                 22/90 
+  Installing  : nodejs-npmlog-0.0.4-4.fc23.noarch                                                                                               23/90 
+  Installing  : nodejs-abbrev-1.0.4-9.fc23.noarch                                                                                               24/90 
+  Installing  : nodejs-nopt-2.1.2-3.fc23.noarch                                                                                                 25/90 
+  Installing  : nodejs-cryptiles-0.2.2-3.fc23.noarch                                                                                            26/90 
+  Installing  : nodejs-sntp-0.2.4-4.fc23.noarch                                                                                                 27/90 
+  Installing  : nodejs-hawk-1.0.0-3.fc23.noarch                                                                                                 28/90 
+  Installing  : nodejs-sha-1.2.1-3.fc23.noarch                                                                                                  29/90 
+  Installing  : nodejs-cmd-shim-1.1.0-6.fc23.noarch                                                                                             30/90 
+  Installing  : libuv-1:1.4.0-2.fc23.x86_64                                                                                                     31/90 
+  Installing  : libuv-devel-1:1.4.0-2.fc23.x86_64                                                                                               32/90 
+  Installing  : perl-srpm-macros-1-17.fc23.noarch                                                                                               33/90 
+  Installing  : ocaml-srpm-macros-2-3.fc23.noarch                                                                                               34/90 
+  Installing  : go-srpm-macros-2-3.fc23.noarch                                                                                                  35/90 
+  Installing  : gnat-srpm-macros-2-1.fc23.noarch                                                                                                36/90 
+  Installing  : ghc-srpm-macros-1.4.2-2.fc23.noarch                                                                                             37/90 
+  Installing  : dwz-0.12-1.fc23.x86_64                                                                                                          38/90 
+  Installing  : python-srpm-macros-3-7.fc23.noarch                                                                                              39/90 
+  Installing  : redhat-rpm-config-36-1.fc23.1.noarch                                                                                            40/90 
+  Installing  : nodejs-packaging-7-4.fc23.noarch                                                                                                41/90 
+  Installing  : c-ares-devel-1.10.0-5.fc23.x86_64                                                                                               42/90 
+  Installing  : compat-libuv010-devel-1:0.10.34-3.fc23.x86_64                                                                                   43/90 
+  Installing  : nodejs-devel-0.10.36-4.fc23.x86_64                                                                                              44/90 
+  Installing  : nodejs-delayed-stream-0.0.5-8.fc23.noarch                                                                                       45/90 
+  Installing  : nodejs-combined-stream-0.0.4-6.fc23.noarch                                                                                      46/90 
+  Installing  : nodejs-ctype-0.5.3-6.fc23.noarch                                                                                                47/90 
+  Installing  : nodejs-assert-plus-0.1.4-3.fc23.noarch                                                                                          48/90 
+  Installing  : nodejs-asn1-0.1.11-6.fc23.noarch                                                                                                49/90 
+  Installing  : nodejs-http-signature-0.10.0-6.fc23.noarch                                                                                      50/90 
+  Installing  : nodejs-async-0.2.10-3.fc23.noarch                                                                                               51/90 
+  Installing  : nodejs-form-data-0.1.1-3.fc23.noarch                                                                                            52/90 
+  Installing  : nodejs-github-url-from-git-1.1.1-5.fc23.noarch                                                                                  53/90 
+  Installing  : nodejs-normalize-package-data-0.2.1-3.fc23.noarch                                                                               54/90 
+  Installing  : nodejs-proto-list-1.2.2-8.fc23.noarch                                                                                           55/90 
+  Installing  : nodejs-config-chain-1.1.7-4.fc23.noarch                                                                                         56/90 
+  Installing  : nodejs-npmconf-0.1.3-3.fc23.noarch                                                                                              57/90 
+  Installing  : nodejs-tunnel-agent-0.3.0-4.fc23.noarch                                                                                         58/90 
+  Installing  : nodejs-qs-0.6.6-4.fc23.noarch                                                                                                   59/90 
+  Installing  : nodejs-oauth-sign-0.3.0-4.fc23.noarch                                                                                           60/90 
+  Installing  : nodejs-node-uuid-1.4.1-3.fc23.noarch                                                                                            61/90 
+  Installing  : nodejs-json-stringify-safe-5.0.0-4.fc23.noarch                                                                                  62/90 
+  Installing  : nodejs-forever-agent-0.5.0-4.fc23.noarch                                                                                        63/90 
+  Installing  : nodejs-cookie-jar-1:0.3.0-4.fc23.noarch                                                                                         64/90 
+  Installing  : nodejs-aws-sign-0.3.0-4.fc23.noarch                                                                                             65/90 
+  Installing  : nodejs-request-2.25.0-3.fc23.noarch                                                                                             66/90 
+  Installing  : nodejs-npm-registry-client-0.2.28-4.fc23.noarch                                                                                 67/90 
+  Installing  : nodejs-mute-stream-0.0.4-3.fc23.noarch                                                                                          68/90 
+  Installing  : nodejs-read-1.0.5-3.fc23.noarch                                                                                                 69/90 
+  Installing  : nodejs-promzard-0.2.0-9.fc23.noarch                                                                                             70/90 
+  Installing  : nodejs-sigmund-1.0.0-8.fc23.noarch                                                                                              71/90 
+  Installing  : nodejs-minimatch-0.2.12-5.fc23.noarch                                                                                           72/90 
+  Installing  : nodejs-glob-3.2.6-3.fc23.noarch                                                                                                 73/90 
+  Installing  : nodejs-read-package-json-1.1.3-3.fc23.noarch                                                                                    74/90 
+  Installing  : nodejs-init-package-json-0.0.10-4.fc23.noarch                                                                                   75/90 
+  Installing  : nodejs-read-installed-0.2.4-4.fc23.noarch                                                                                       76/90 
+  Installing  : nodejs-fstream-ignore-0.0.7-4.fc23.noarch                                                                                       77/90 
+  Installing  : nodejs-fstream-npm-0.1.5-4.fc23.noarch                                                                                          78/90 
+  Installing  : gyp-0.1-0.18.0bb6747git.fc23.noarch                                                                                             79/90 
+  Installing  : node-gyp-0.10.6-5.fc23.noarch                                                                                                   80/90 
+  Installing  : nodejs-uid-number-0.0.3-10.fc23.noarch                                                                                          81/90 
+  Installing  : nodejs-opener-1.3.0-10.fc23.noarch                                                                                              82/90 
+  Installing  : nodejs-npm-user-validate-0.0.3-4.fc23.noarch                                                                                    83/90 
+  Installing  : nodejs-lockfile-0.4.2-3.fc23.noarch                                                                                             84/90 
+  Installing  : nodejs-editor-0.0.4-5.fc23.noarch                                                                                               85/90 
+  Installing  : nodejs-chmodr-0.1.0-7.fc23.noarch                                                                                               86/90 
+  Installing  : nodejs-child-process-close-0.1.1-5.fc23.noarch                                                                                  87/90 
+  Installing  : nodejs-archy-0.0.2-11.fc23.noarch                                                                                               88/90 
+  Installing  : npm-1.3.6-8.fc23.noarch                                                                                                         89/90 
+  Installing  : ruby-devel-2.2.3-44.fc23.x86_64                                                                                                 90/90 
+  Verifying   : npm-1.3.6-8.fc23.noarch                                                                                                          1/90 
+  Verifying   : node-gyp-0.10.6-5.fc23.noarch                                                                                                    2/90 
+  Verifying   : nodejs-abbrev-1.0.4-9.fc23.noarch                                                                                                3/90 
+  Verifying   : nodejs-ansi-0.2.1-3.fc23.noarch                                                                                                  4/90 
+  Verifying   : nodejs-archy-0.0.2-11.fc23.noarch                                                                                                5/90 
+  Verifying   : nodejs-block-stream-0.0.7-3.fc23.noarch                                                                                          6/90 
+  Verifying   : nodejs-child-process-close-0.1.1-5.fc23.noarch                                                                                   7/90 
+  Verifying   : nodejs-chmodr-0.1.0-7.fc23.noarch                                                                                                8/90 
+  Verifying   : nodejs-chownr-0.0.1-12.fc23.noarch                                                                                               9/90 
+  Verifying   : nodejs-cmd-shim-1.1.0-6.fc23.noarch                                                                                             10/90 
+  Verifying   : nodejs-editor-0.0.4-5.fc23.noarch                                                                                               11/90 
+  Verifying   : nodejs-fstream-0.1.24-3.fc23.noarch                                                                                             12/90 
+  Verifying   : nodejs-fstream-npm-0.1.5-4.fc23.noarch                                                                                          13/90 
+  Verifying   : nodejs-glob-3.2.6-3.fc23.noarch                                                                                                 14/90 
+  Verifying   : nodejs-graceful-fs-2.0.0-5.fc23.noarch                                                                                          15/90 
+  Verifying   : nodejs-ini-1.1.0-6.fc23.noarch                                                                                                  16/90 
+  Verifying   : nodejs-init-package-json-0.0.10-4.fc23.noarch                                                                                   17/90 
+  Verifying   : nodejs-lockfile-0.4.2-3.fc23.noarch                                                                                             18/90 
+  Verifying   : nodejs-lru-cache-2.3.0-6.fc23.noarch                                                                                            19/90 
+  Verifying   : nodejs-minimatch-0.2.12-5.fc23.noarch                                                                                           20/90 
+  Verifying   : nodejs-mkdirp-0.3.5-6.fc23.noarch                                                                                               21/90 
+  Verifying   : nodejs-nopt-2.1.2-3.fc23.noarch                                                                                                 22/90 
+  Verifying   : nodejs-npm-registry-client-0.2.28-4.fc23.noarch                                                                                 23/90 
+  Verifying   : nodejs-npm-user-validate-0.0.3-4.fc23.noarch                                                                                    24/90 
+  Verifying   : nodejs-npmconf-0.1.3-3.fc23.noarch                                                                                              25/90 
+  Verifying   : nodejs-npmlog-0.0.4-4.fc23.noarch                                                                                               26/90 
+  Verifying   : nodejs-once-1.1.1-8.fc23.noarch                                                                                                 27/90 
+  Verifying   : nodejs-opener-1.3.0-10.fc23.noarch                                                                                              28/90 
+  Verifying   : nodejs-osenv-0.0.3-8.fc23.noarch                                                                                                29/90 
+  Verifying   : nodejs-read-1.0.5-3.fc23.noarch                                                                                                 30/90 
+  Verifying   : nodejs-read-installed-0.2.4-4.fc23.noarch                                                                                       31/90 
+  Verifying   : nodejs-read-package-json-1.1.3-3.fc23.noarch                                                                                    32/90 
+  Verifying   : nodejs-request-2.25.0-3.fc23.noarch                                                                                             33/90 
+  Verifying   : nodejs-retry-0.6.0-8.fc23.noarch                                                                                                34/90 
+  Verifying   : nodejs-rimraf-2.2.2-3.fc23.noarch                                                                                               35/90 
+  Verifying   : nodejs-semver-2.1.0-4.fc23.noarch                                                                                               36/90 
+  Verifying   : nodejs-sha-1.2.1-3.fc23.noarch                                                                                                  37/90 
+  Verifying   : nodejs-slide-1.1.5-3.fc23.noarch                                                                                                38/90 
+  Verifying   : nodejs-tar-0.1.18-3.fc23.noarch                                                                                                 39/90 
+  Verifying   : nodejs-uid-number-0.0.3-10.fc23.noarch                                                                                          40/90 
+  Verifying   : nodejs-which-1.0.5-11.fc23.noarch                                                                                               41/90 
+  Verifying   : gyp-0.1-0.18.0bb6747git.fc23.noarch                                                                                             42/90 
+  Verifying   : nodejs-inherits-2.0.1-6.fc23.noarch                                                                                             43/90 
+  Verifying   : nodejs-fstream-ignore-0.0.7-4.fc23.noarch                                                                                       44/90 
+  Verifying   : nodejs-promzard-0.2.0-9.fc23.noarch                                                                                             45/90 
+  Verifying   : nodejs-sigmund-1.0.0-8.fc23.noarch                                                                                              46/90 
+  Verifying   : nodejs-config-chain-1.1.7-4.fc23.noarch                                                                                         47/90 
+  Verifying   : nodejs-mute-stream-0.0.4-3.fc23.noarch                                                                                          48/90 
+  Verifying   : nodejs-normalize-package-data-0.2.1-3.fc23.noarch                                                                               49/90 
+  Verifying   : nodejs-aws-sign-0.3.0-4.fc23.noarch                                                                                             50/90 
+  Verifying   : nodejs-cookie-jar-1:0.3.0-4.fc23.noarch                                                                                         51/90 
+  Verifying   : nodejs-forever-agent-0.5.0-4.fc23.noarch                                                                                        52/90 
+  Verifying   : nodejs-form-data-0.1.1-3.fc23.noarch                                                                                            53/90 
+  Verifying   : nodejs-hawk-1.0.0-3.fc23.noarch                                                                                                 54/90 
+  Verifying   : nodejs-http-signature-0.10.0-6.fc23.noarch                                                                                      55/90 
+  Verifying   : nodejs-json-stringify-safe-5.0.0-4.fc23.noarch                                                                                  56/90 
+  Verifying   : nodejs-mime-1.2.11-3.fc23.noarch                                                                                                57/90 
+  Verifying   : nodejs-node-uuid-1.4.1-3.fc23.noarch                                                                                            58/90 
+  Verifying   : nodejs-oauth-sign-0.3.0-4.fc23.noarch                                                                                           59/90 
+  Verifying   : nodejs-qs-0.6.6-4.fc23.noarch                                                                                                   60/90 
+  Verifying   : nodejs-tunnel-agent-0.3.0-4.fc23.noarch                                                                                         61/90 
+  Verifying   : nodejs-proto-list-1.2.2-8.fc23.noarch                                                                                           62/90 
+  Verifying   : nodejs-github-url-from-git-1.1.1-5.fc23.noarch                                                                                  63/90 
+  Verifying   : nodejs-async-0.2.10-3.fc23.noarch                                                                                               64/90 
+  Verifying   : nodejs-combined-stream-0.0.4-6.fc23.noarch                                                                                      65/90 
+  Verifying   : nodejs-boom-0.4.2-5.fc23.noarch                                                                                                 66/90 
+  Verifying   : nodejs-cryptiles-0.2.2-3.fc23.noarch                                                                                            67/90 
+  Verifying   : nodejs-hoek-0.9.1-4.fc23.noarch                                                                                                 68/90 
+  Verifying   : nodejs-sntp-0.2.4-4.fc23.noarch                                                                                                 69/90 
+  Verifying   : nodejs-asn1-0.1.11-6.fc23.noarch                                                                                                70/90 
+  Verifying   : nodejs-assert-plus-0.1.4-3.fc23.noarch                                                                                          71/90 
+  Verifying   : nodejs-ctype-0.5.3-6.fc23.noarch                                                                                                72/90 
+  Verifying   : nodejs-delayed-stream-0.0.5-8.fc23.noarch                                                                                       73/90 
+  Verifying   : ruby-devel-2.2.3-44.fc23.x86_64                                                                                                 74/90 
+  Verifying   : nodejs-devel-0.10.36-4.fc23.x86_64                                                                                              75/90 
+  Verifying   : compat-libuv010-devel-1:0.10.34-3.fc23.x86_64                                                                                   76/90 
+  Verifying   : c-ares-devel-1.10.0-5.fc23.x86_64                                                                                               77/90 
+  Verifying   : http-parser-devel-2.0-9.20121128gitcd01361.fc23.x86_64                                                                          78/90 
+  Verifying   : nodejs-packaging-7-4.fc23.noarch                                                                                                79/90 
+  Verifying   : v8-devel-1:3.14.5.10-21.fc23.x86_64                                                                                             80/90 
+  Verifying   : redhat-rpm-config-36-1.fc23.1.noarch                                                                                            81/90 
+  Verifying   : python-srpm-macros-3-7.fc23.noarch                                                                                              82/90 
+  Verifying   : dwz-0.12-1.fc23.x86_64                                                                                                          83/90 
+  Verifying   : ghc-srpm-macros-1.4.2-2.fc23.noarch                                                                                             84/90 
+  Verifying   : gnat-srpm-macros-2-1.fc23.noarch                                                                                                85/90 
+  Verifying   : go-srpm-macros-2-3.fc23.noarch                                                                                                  86/90 
+  Verifying   : ocaml-srpm-macros-2-3.fc23.noarch                                                                                               87/90 
+  Verifying   : perl-srpm-macros-1-17.fc23.noarch                                                                                               88/90 
+  Verifying   : libuv-devel-1:1.4.0-2.fc23.x86_64                                                                                               89/90 
+  Verifying   : libuv-1:1.4.0-2.fc23.x86_64                                                                                                     90/90 
+
+Installed:
+  c-ares-devel.x86_64 1.10.0-5.fc23                                      compat-libuv010-devel.x86_64 1:0.10.34-3.fc23                                
+  dwz.x86_64 0.12-1.fc23                                                 ghc-srpm-macros.noarch 1.4.2-2.fc23                                          
+  gnat-srpm-macros.noarch 2-1.fc23                                       go-srpm-macros.noarch 2-3.fc23                                               
+  gyp.noarch 0.1-0.18.0bb6747git.fc23                                    http-parser-devel.x86_64 2.0-9.20121128gitcd01361.fc23                       
+  libuv.x86_64 1:1.4.0-2.fc23                                            libuv-devel.x86_64 1:1.4.0-2.fc23                                            
+  node-gyp.noarch 0.10.6-5.fc23                                          nodejs-abbrev.noarch 1.0.4-9.fc23                                            
+  nodejs-ansi.noarch 0.2.1-3.fc23                                        nodejs-archy.noarch 0.0.2-11.fc23                                            
+  nodejs-asn1.noarch 0.1.11-6.fc23                                       nodejs-assert-plus.noarch 0.1.4-3.fc23                                       
+  nodejs-async.noarch 0.2.10-3.fc23                                      nodejs-aws-sign.noarch 0.3.0-4.fc23                                          
+  nodejs-block-stream.noarch 0.0.7-3.fc23                                nodejs-boom.noarch 0.4.2-5.fc23                                              
+  nodejs-child-process-close.noarch 0.1.1-5.fc23                         nodejs-chmodr.noarch 0.1.0-7.fc23                                            
+  nodejs-chownr.noarch 0.0.1-12.fc23                                     nodejs-cmd-shim.noarch 1.1.0-6.fc23                                          
+  nodejs-combined-stream.noarch 0.0.4-6.fc23                             nodejs-config-chain.noarch 1.1.7-4.fc23                                      
+  nodejs-cookie-jar.noarch 1:0.3.0-4.fc23                                nodejs-cryptiles.noarch 0.2.2-3.fc23                                         
+  nodejs-ctype.noarch 0.5.3-6.fc23                                       nodejs-delayed-stream.noarch 0.0.5-8.fc23                                    
+  nodejs-devel.x86_64 0.10.36-4.fc23                                     nodejs-editor.noarch 0.0.4-5.fc23                                            
+  nodejs-forever-agent.noarch 0.5.0-4.fc23                               nodejs-form-data.noarch 0.1.1-3.fc23                                         
+  nodejs-fstream.noarch 0.1.24-3.fc23                                    nodejs-fstream-ignore.noarch 0.0.7-4.fc23                                    
+  nodejs-fstream-npm.noarch 0.1.5-4.fc23                                 nodejs-github-url-from-git.noarch 1.1.1-5.fc23                               
+  nodejs-glob.noarch 3.2.6-3.fc23                                        nodejs-graceful-fs.noarch 2.0.0-5.fc23                                       
+  nodejs-hawk.noarch 1.0.0-3.fc23                                        nodejs-hoek.noarch 0.9.1-4.fc23                                              
+  nodejs-http-signature.noarch 0.10.0-6.fc23                             nodejs-inherits.noarch 2.0.1-6.fc23                                          
+  nodejs-ini.noarch 1.1.0-6.fc23                                         nodejs-init-package-json.noarch 0.0.10-4.fc23                                
+  nodejs-json-stringify-safe.noarch 5.0.0-4.fc23                         nodejs-lockfile.noarch 0.4.2-3.fc23                                          
+  nodejs-lru-cache.noarch 2.3.0-6.fc23                                   nodejs-mime.noarch 1.2.11-3.fc23                                             
+  nodejs-minimatch.noarch 0.2.12-5.fc23                                  nodejs-mkdirp.noarch 0.3.5-6.fc23                                            
+  nodejs-mute-stream.noarch 0.0.4-3.fc23                                 nodejs-node-uuid.noarch 1.4.1-3.fc23                                         
+  nodejs-nopt.noarch 2.1.2-3.fc23                                        nodejs-normalize-package-data.noarch 0.2.1-3.fc23                            
+  nodejs-npm-registry-client.noarch 0.2.28-4.fc23                        nodejs-npm-user-validate.noarch 0.0.3-4.fc23                                 
+  nodejs-npmconf.noarch 0.1.3-3.fc23                                     nodejs-npmlog.noarch 0.0.4-4.fc23                                            
+  nodejs-oauth-sign.noarch 0.3.0-4.fc23                                  nodejs-once.noarch 1.1.1-8.fc23                                              
+  nodejs-opener.noarch 1.3.0-10.fc23                                     nodejs-osenv.noarch 0.0.3-8.fc23                                             
+  nodejs-packaging.noarch 7-4.fc23                                       nodejs-promzard.noarch 0.2.0-9.fc23                                          
+  nodejs-proto-list.noarch 1.2.2-8.fc23                                  nodejs-qs.noarch 0.6.6-4.fc23                                                
+  nodejs-read.noarch 1.0.5-3.fc23                                        nodejs-read-installed.noarch 0.2.4-4.fc23                                    
+  nodejs-read-package-json.noarch 1.1.3-3.fc23                           nodejs-request.noarch 2.25.0-3.fc23                                          
+  nodejs-retry.noarch 0.6.0-8.fc23                                       nodejs-rimraf.noarch 2.2.2-3.fc23                                            
+  nodejs-semver.noarch 2.1.0-4.fc23                                      nodejs-sha.noarch 1.2.1-3.fc23                                               
+  nodejs-sigmund.noarch 1.0.0-8.fc23                                     nodejs-slide.noarch 1.1.5-3.fc23                                             
+  nodejs-sntp.noarch 0.2.4-4.fc23                                        nodejs-tar.noarch 0.1.18-3.fc23                                              
+  nodejs-tunnel-agent.noarch 0.3.0-4.fc23                                nodejs-uid-number.noarch 0.0.3-10.fc23                                       
+  nodejs-which.noarch 1.0.5-11.fc23                                      npm.noarch 1.3.6-8.fc23                                                      
+  ocaml-srpm-macros.noarch 2-3.fc23                                      perl-srpm-macros.noarch 1-17.fc23                                            
+  python-srpm-macros.noarch 3-7.fc23                                     redhat-rpm-config.noarch 36-1.fc23.1                                         
+  ruby-devel.x86_64 2.2.3-44.fc23                                        v8-devel.x86_64 1:3.14.5.10-21.fc23                                          
+
+Complete!
+[root@mayuresh /]# gem install rails
+Building native extensions.  This could take a while...
+Successfully installed nokogiri-1.6.7.2
+Fetching: rails-dom-testing-1.0.7.gem (100%)
+Successfully installed rails-dom-testing-1.0.7
+Fetching: loofah-2.0.3.gem (100%)
+Successfully installed loofah-2.0.3
+Fetching: rails-html-sanitizer-1.0.3.gem (100%)
+Successfully installed rails-html-sanitizer-1.0.3
+Fetching: actionview-4.2.6.gem (100%)
+Successfully installed actionview-4.2.6
+Fetching: rack-1.6.4.gem (100%)
+Successfully installed rack-1.6.4
+Fetching: rack-test-0.6.3.gem (100%)
+Successfully installed rack-test-0.6.3
+Fetching: actionpack-4.2.6.gem (100%)
+Successfully installed actionpack-4.2.6
+Fetching: globalid-0.3.6.gem (100%)
+Successfully installed globalid-0.3.6
+Fetching: activejob-4.2.6.gem (100%)
+Successfully installed activejob-4.2.6
+Fetching: mime-types-data-3.2016.0521.gem (100%)
+Successfully installed mime-types-data-3.2016.0521
+Fetching: mime-types-3.1.gem (100%)
+Successfully installed mime-types-3.1
+Fetching: mail-2.6.4.gem (100%)
+Successfully installed mail-2.6.4
+Fetching: actionmailer-4.2.6.gem (100%)
+Successfully installed actionmailer-4.2.6
+Fetching: activemodel-4.2.6.gem (100%)
+Successfully installed activemodel-4.2.6
+Fetching: arel-6.0.3.gem (100%)
+Successfully installed arel-6.0.3
+Fetching: activerecord-4.2.6.gem (100%)
+Successfully installed activerecord-4.2.6
+Fetching: thor-0.19.1.gem (100%)
+Successfully installed thor-0.19.1
+Fetching: railties-4.2.6.gem (100%)
+Successfully installed railties-4.2.6
+Fetching: concurrent-ruby-1.0.2.gem (100%)
+Successfully installed concurrent-ruby-1.0.2
+Fetching: sprockets-3.6.0.gem (100%)
+Successfully installed sprockets-3.6.0
+Fetching: sprockets-rails-3.0.4.gem (100%)
+Successfully installed sprockets-rails-3.0.4
+Fetching: rails-4.2.6.gem (100%)
+Successfully installed rails-4.2.6
+Parsing documentation for nokogiri-1.6.7.2
+Installing ri documentation for nokogiri-1.6.7.2
+Parsing documentation for rails-dom-testing-1.0.7
+Installing ri documentation for rails-dom-testing-1.0.7
+Parsing documentation for loofah-2.0.3
+Installing ri documentation for loofah-2.0.3
+Parsing documentation for rails-html-sanitizer-1.0.3
+Installing ri documentation for rails-html-sanitizer-1.0.3
+Parsing documentation for actionview-4.2.6
+Installing ri documentation for actionview-4.2.6
+Parsing documentation for rack-1.6.4
+Installing ri documentation for rack-1.6.4
+Parsing documentation for rack-test-0.6.3
+Installing ri documentation for rack-test-0.6.3
+Parsing documentation for actionpack-4.2.6
+Installing ri documentation for actionpack-4.2.6
+Parsing documentation for globalid-0.3.6
+Installing ri documentation for globalid-0.3.6
+Parsing documentation for activejob-4.2.6
+Installing ri documentation for activejob-4.2.6
+Parsing documentation for mime-types-data-3.2016.0521
+Installing ri documentation for mime-types-data-3.2016.0521
+Parsing documentation for mime-types-3.1
+Installing ri documentation for mime-types-3.1
+Parsing documentation for mail-2.6.4
+Installing ri documentation for mail-2.6.4
+Parsing documentation for actionmailer-4.2.6
+Installing ri documentation for actionmailer-4.2.6
+Parsing documentation for activemodel-4.2.6
+Installing ri documentation for activemodel-4.2.6
+Parsing documentation for arel-6.0.3
+Installing ri documentation for arel-6.0.3
+Parsing documentation for activerecord-4.2.6
+Installing ri documentation for activerecord-4.2.6
+Parsing documentation for thor-0.19.1
+Installing ri documentation for thor-0.19.1
+Parsing documentation for railties-4.2.6
+Installing ri documentation for railties-4.2.6
+Parsing documentation for concurrent-ruby-1.0.2
+Installing ri documentation for concurrent-ruby-1.0.2
+Parsing documentation for sprockets-3.6.0
+Installing ri documentation for sprockets-3.6.0
+Parsing documentation for sprockets-rails-3.0.4
+Installing ri documentation for sprockets-rails-3.0.4
+Parsing documentation for rails-4.2.6
+Installing ri documentation for rails-4.2.6
+Done installing documentation for nokogiri, rails-dom-testing, loofah, rails-html-sanitizer, actionview, rack, rack-test, actionpack, globalid, activejob, mime-types-data, mime-types, mail, actionmailer, activemodel, arel, activerecord, thor, railties, concurrent-ruby, sprockets, sprockets-rails, rails after 765 seconds
+23 gems installed
+[root@mayuresh /]# 

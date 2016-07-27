@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+<meta charset="utf-8">
+<title>jQuery Example</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+      
+</head>
+
+<body>
+  
+<div id="message1" style="display:none">Welcome to new website</div>
+<input type="button" value="Hide" id="toggle_message" />
+<p id="message2">You can see this paragraph</p>
+<p onclick="alert('Works');">This is another paragraph </p>
+
+<p><input id="search_names" type="text" /></p>
+
+<ul id="names">
+  <li>Alex Garrett</li>
+  <li>Billy Garrett</li>
+  <li>Dale Garrett</li>
+  <li>Ashley Garrett</li>
+</ul>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/toggle.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/ext.js"></script>
+
+</body>
+</html>
+
